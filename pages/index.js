@@ -20,8 +20,11 @@ export default function Home() {
         <Header />
         {/* ChatLog */}
         <ChatLog />
-      </div>
+        {/* ChatInput */}
         <ChatInput />
+        <br />
+        <br />
+      </div>
     </>
   );
 }
