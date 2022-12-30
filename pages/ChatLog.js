@@ -2,7 +2,7 @@ import React from "react";
 
 const ChatLog = () => {
   return (
-    <div className="flex flex-col space-y-2 p-2 pb-10">
+    <div className="h-fit flex flex-col space-y-2 p-2 mt-10">
       <div className="chat-box-left">GM!</div>
       <div className="chat-box-left">Bing Bong</div>
       <div className="chat-box-left">Hey I'm a robot BEEP BOOP</div>

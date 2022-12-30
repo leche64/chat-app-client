@@ -15,14 +15,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="body bg-[#343542] w-screen h-full">
+      <div className="body bg-[#343542] w-screen min-h-screen">
         {/* Header */}
         <Header />
         {/* ChatLog */}
         <ChatLog />
-        {/* ChatInput */}
-        <ChatInput />
       </div>
+        <ChatInput />
     </>
   );
 }

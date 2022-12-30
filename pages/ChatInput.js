@@ -2,8 +2,8 @@ import React from "react";
 
 const ChatInput = () => {
   return (
-    <div className="w-full border-t-2 border-[#5F646C]">
-      <form className="bg-[#343540] shadow-md rounded p-4">
+    <div className="w-full border-t-2 border-[#5F646C] fixed bottom-0">
+      <form className="bg-[#343540] p-3">
         <div className="flex justify-between items-center mb-2">
           <input
             className="bg-[#40414f] shadow appearance-none rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
