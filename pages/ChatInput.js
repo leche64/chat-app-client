@@ -12,7 +12,7 @@ const ChatInput = () => {
           id="username"
           type="text"
           placeholder="Ask me a something"
-          autocomplete="off"
+          autoComplete="off"
         />
         <svg
           xmlns="http://www.w3.org/2000/svg"
