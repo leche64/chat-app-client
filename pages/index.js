@@ -112,14 +112,23 @@ export default function Home() {
           {chatLog.map((message, index) => (
             <ChatMessage key={index} message={message} />
           ))}
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <div className="h-5" ref={sectionRef}></div>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <div className="h-10" ref={sectionRef}></div>
         </div>
         {/* ChatInput */}
         <div className="chatInputContainer h-20 w-screen border-t-2 bg-[#343542] border-[#5F646C] flex justify-center fixed bottom-0 z-10">
