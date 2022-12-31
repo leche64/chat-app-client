@@ -6,9 +6,9 @@ const ChatInput = () => {
     // </div>
 
     <div className="chatInputContainer h-20 w-screen border-t-2 bg-[#343542] border-[#5F646C] flex justify-center fixed bottom-0 z-10">
-      <div className="flex mt-5">
+      <div className="flex mt-5 mr-5 ml-5 w-full h-fit justify-center">
         <input
-          className="h-10 appearance-none rounded w-96 p-2 text-white bg-[#40414f] focus:outline-none focus:shadow-outline"
+          className="h-10 w-full appearance-none rounded p-2 text-white bg-[#40414f] focus:outline-none focus:shadow-outline"
           id="username"
           type="text"
           placeholder="Ask me a something"
