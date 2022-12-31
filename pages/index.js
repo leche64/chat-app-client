@@ -121,13 +121,6 @@ export default function Home() {
           <br/>
           <br/>
           <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
           <div className="h-10" ref={sectionRef}></div>
         </div>
         {/* ChatInput */}
