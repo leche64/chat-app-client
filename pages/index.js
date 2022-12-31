@@ -121,7 +121,7 @@ export default function Home() {
           <br/>
           <br/>
           <br/>
-          <div className="h-10" ref={sectionRef}></div>
+          <div className="h-2" ref={sectionRef}></div>
         </div>
         {/* ChatInput */}
         <div className="chatInputContainer h-20 w-screen border-t-2 bg-[#343542] border-[#5F646C] flex justify-center fixed bottom-0 z-10">
