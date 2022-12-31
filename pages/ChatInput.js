@@ -2,9 +2,6 @@ import React from "react";
 
 const ChatInput = () => {
   return (
-    // <div className="chatInputContainer h-auto w-screen border-t-2 border-[#5F646C] flex bottom-0">
-    // </div>
-
     <div className="chatInputContainer h-20 w-screen border-t-2 bg-[#343542] border-[#5F646C] flex justify-center fixed bottom-0 z-10">
       <div className="flex mt-5 mr-5 ml-5 w-full h-fit justify-center">
         <input
